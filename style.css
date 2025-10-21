@@ -1,0 +1,199 @@
+body {
+  background-color: rgb(45, 42, 42);
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.Guns, .info, .albuns {
+  padding: 1rem;
+  margin: 0 auto;
+  max-width: 1200px;
+  box-sizing: border-box;
+}
+
+.Guns {
+  color: rgb(242, 238, 238);
+  text-align: center;
+}
+
+.Guns h1 {
+  font-size: 50px;
+}
+
+.integrantes {
+  width: 100%;
+  max-width: 550px;
+  height: auto;
+  border-radius: 20%;
+  display: block;
+  margin: 0 auto;
+}
+
+.info, .albuns {
+  text-align: justify;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.info h1, .albuns h1 {
+  color: red;
+}
+
+.info p, .albuns p {
+  color: white;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.albuns h2 {
+  color: white;
+}
+
+.albuns a{
+  color: white;
+}
+
+.albun1 {
+  width: 100%;
+  max-width: 450px;
+  height: auto;
+  border-radius: 20%;
+  margin: 20px auto;
+  display: block;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: flex-start;
+}
+
+.container p {
+  flex: 1 1 300px;
+  color: white;
+}
+
+.container li {
+  font-size: 1.3rem;
+  color: white;
+}
+
+
+
+
+
+@media (max-width: 768px) {
+  .Guns h1 {
+    font-size: 2rem;
+  }
+
+  .albuns h1 {
+    font-size: 1.5rem;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+
+  .container li {
+    font-size: 1rem;
+  }
+}
+
+.albun li {
+  font-size: 1.3rem;
+  color: white;
+}
+
+.albun2 {
+  width: 100%;
+  max-width: 450px;
+  height: auto;
+  border-radius: 20%;
+  margin: 20px auto;
+  display: block;
+  margin-top: 30px;
+}
+
+.albun {
+  text-align: justify;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+
+.container {
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
+  margin-top: 60px;
+  flex-wrap: wrap; /* Para funcionar bem em telas menores */
+}
+
+.texto {
+  flex: 1;
+  min-width: 300px;
+}
+
+.imagem-album {
+  max-width: 300px;
+  height: auto;
+  border-radius: 20px;
+}
+
+.albun3 {
+  width: 100%;
+  max-width: 450px;
+  height: auto;
+  border-radius: 20%;
+  margin: 20px auto;
+  display: block;
+  margin-top: 30px;
+}
+
+.albun4{
+  width: 100%;
+  max-width: 450px;
+  height: auto;
+  border-radius: 20%;
+  margin: 20px auto;
+  display: block;
+  margin-top: 30px; 
+
+}
+
+.albun5{
+  width: 100%;
+  max-width: 450px;
+  height: auto;
+  border-radius: 20%;
+  margin: 20px auto;
+  display: block;
+  margin-top: 30px;  
+}
+
+.albun6{
+  width: 100%;
+  max-width: 450px;
+  height: auto;
+  border-radius: 20%;
+  margin: 20px auto;
+  display: block;
+  margin-top: 30px;  
+}
+
+.info a{
+  color: white;
+}
+
+footer{
+  text-align: center;
+  color: antiquewhite;
+}
+
+.fo{
+  background-color: red;
+  
+}
