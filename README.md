@@ -4,7 +4,7 @@ Este projeto foi desenvolvido para apresentar informações sobre a banda **Guns
 
 ## 🌐 Acesse o site
 
-👉 [Clique aqui para ver o site ao vivo](https://murlinhomb.github.io/GUNS-N-ROSES-/)
+👉 [Clique aqui para ver o site ao vivo](https://murilinhomb.github.io/GUNS-N-ROSES-/)
 
 ---
 
