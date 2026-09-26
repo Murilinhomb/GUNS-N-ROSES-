@@ -36,6 +36,10 @@
   min-width: 300px;
 }
 
+.texto p{
+  font-size: 20px;
+}
+
 h2{
 color:white
 }
@@ -101,9 +105,12 @@ h1{
   display: block;
 }
 
+
+
 footer{
   text-align: center;
   color: antiquewhite;
+
 }
 
 .fo{
@@ -111,6 +118,12 @@ footer{
   
 }
 
-p{
-  font-size: 22px;
+.fo a{
+  color: white;
+}
+
+footer p {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
 }

@@ -197,3 +197,17 @@ footer{
   background-color: red;
   
 }
+
+.fo a{
+  color: white;
+}
+
+footer p {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.texto p {
+  font-size: 20px;
+}
